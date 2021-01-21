@@ -1,0 +1,21 @@
+2021-01-21 15:23:16,802  | INFO | Logger is Created
+2021-01-21 15:23:16,802  | INFO | Started Process @ 2021-01-21 15:23:16.802857
+2021-01-21 15:23:16,802  | INFO | ClassSteelEyeAssigment Object Created
+2021-01-21 15:23:16,802  | INFO | Clearing Old Files.....
+2021-01-21 15:23:16,827  | INFO | Done Clearing Old Files.....
+2021-01-21 15:23:16,861  | INFO | Getting Files to Download
+2021-01-21 15:23:16,864  | INFO | Finished Getting Files to Download
+2021-01-21 15:23:16,864  | INFO | Starting Download and unzip files
+2021-01-21 15:23:16,864  | INFO | Downloading http://firds.esma.europa.eu/firds/DLTINS_20200108_01of03.zip
+2021-01-21 15:25:01,293  | INFO | Downloading http://firds.esma.europa.eu/firds/DLTINS_20200108_02of03.zip
+2021-01-21 15:28:59,622  | INFO | Downloading http://firds.esma.europa.eu/firds/DLTINS_20200108_03of03.zip
+2021-01-21 15:29:16,806  | INFO | Finished Download and unzip files
+2021-01-21 15:29:16,842  | INFO | Processing /Users/pl465j/Downloads/steeleye/downloads/DLTINS_20200108_01of03.xml
+2021-01-21 15:29:16,842  | INFO | Processing /Users/pl465j/Downloads/steeleye/downloads/DLTINS_20200108_02of03.xml
+2021-01-21 15:29:16,842  | INFO | Processing /Users/pl465j/Downloads/steeleye/downloads/DLTINS_20200108_03of03.xml
+2021-01-21 15:31:58,475  | INFO | Creating CSV File /Users/pl465j/Downloads/steeleye/out/20210121.csv
+2021-01-21 15:32:02,849  | INFO | Successfully Created /Users/pl465j/Downloads/steeleye/out/20210121.csv File
+2021-01-21 15:32:02,850  | INFO | Copying Files to S3
+2021-01-21 15:43:03,611  | ERROR | Error Copying Files to S3 Connection was closed before we received a valid response from endpoint URL: "https://dv-adip-sandbox-8337-us-east-1.s3.amazonaws.com/20210121.csv?uploadId=99TFipEa0FETLbF9S94zswcVYcui4fa5hHI0Rz5Qwemc.SZXtzmYdzAHFnR4xYjZXFn_EdZJv1O8dfinLgNwiceQeaB2CbNQkej9Rt13zi93_fxQyu3Pfy4tpguqNi9L&partNumber=5".
+2021-01-21 15:43:03,612  | ERROR | Error Copying Files to S3
+2021-01-21 15:43:03,612  | INFO |  Process Ended UnSuccessfully @ 2021-01-21 15:43:03.612703
