@@ -1,0 +1,34 @@
+2021-01-21 19:36:44,110  | INFO | ClassSteelEyeAssigment Object Created
+2021-01-21 19:36:44,110  | INFO | Test Started @ 2021-01-21 19:36:44.110535
+2021-01-21 19:36:44,112  | INFO | Clearing Old Files.....
+2021-01-21 19:36:44,156  | INFO | Done Clearing Old Files.....
+2021-01-21 19:36:44,156  | INFO | Getting Files to Download
+2021-01-21 19:36:44,158  | INFO | Finished Getting Files to Download
+2021-01-21 19:36:44,158  | INFO | Files to DownLoad = http://firds.esma.europa.eu/firds/DLTINS_20200108_01of03.zip,http://firds.esma.europa.eu/firds/DLTINS_20200108_02of03.zip,http://firds.esma.europa.eu/firds/DLTINS_20200108_03of03.zip
+2021-01-21 19:36:44,158  | INFO | Starting Download and unzip files
+2021-01-21 19:36:44,158  | INFO | Downloading http://firds.esma.europa.eu/firds/DLTINS_20200108_01of03.zip
+2021-01-21 19:37:54,797  | INFO | Downloading http://firds.esma.europa.eu/firds/DLTINS_20200108_02of03.zip
+2021-01-21 19:39:12,607  | INFO | Downloading http://firds.esma.europa.eu/firds/DLTINS_20200108_03of03.zip
+2021-01-21 19:39:30,709  | INFO | Finished Download and unzip files
+2021-01-21 19:39:30,785  | INFO | Processing /Users/pl465j/Downloads/steeleye/downloads/DLTINS_20200108_01of03.xml
+2021-01-21 19:39:30,785  | INFO | Processing /Users/pl465j/Downloads/steeleye/downloads/DLTINS_20200108_02of03.xml
+2021-01-21 19:39:30,785  | INFO | Processing /Users/pl465j/Downloads/steeleye/downloads/DLTINS_20200108_03of03.xml
+2021-01-21 19:43:12,801  | INFO | DataFrame  =                  Id  ...                  Issr
+0      BE0000348574  ...  549300SZ25JZFHRHWD76
+1      BE0000348574  ...  549300SZ25JZFHRHWD76
+2      BE0000348574  ...  549300SZ25JZFHRHWD76
+3      BE0000348574  ...  549300SZ25JZFHRHWD76
+4      BE0000348574  ...  549300SZ25JZFHRHWD76
+...             ...  ...                   ...
+71729  EZ9YGF8RY6P2  ...  5493009GUESWKOCRBE73
+71730  EZ9YGF8RY6P2  ...  5493009GUESWKOCRBE73
+71731  EZ9YGK9KG3W3  ...  2138002GI1GKI3V4UG48
+71732  EZ9YGK9KG3W3  ...  2138002GI1GKI3V4UG48
+71733  EZ9YGK9KG3W3  ...  2138002GI1GKI3V4UG48
+
+[1071734 rows x 6 columns]
+2021-01-21 19:43:12,803  | INFO | Creating CSV File /Users/pl465j/Downloads/steeleye/out/20210121.csv
+2021-01-21 19:43:16,938  | INFO | Successfully Created /Users/pl465j/Downloads/steeleye/out/20210121.csv File
+2021-01-21 19:43:16,938  | INFO | Copying Files to S3
+2021-01-21 19:51:53,382  | INFO | Copying Files to S3 Completed
+2021-01-21 19:51:53,628  | INFO | Test Ended @ 2021-01-21 19:51:53.628842
